@@ -1,0 +1,214 @@
+/* This stylesheet will be selected when you export HTML from InDesign */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /*your style rules go in here */
+  background-color: rgb(121, 193, 214);
+  font-size: 18px;
+  
+  }
+
+main {
+  background-color: rgb(220, 245, 220);
+  width: 70%;
+  margin: 0 auto;
+  padding: 24px;
+  min-width: 650px;
+  }
+
+nav {
+  /* this is where your nav list items will be */
+  display: none;
+}
+
+section {
+border:none;
+border-width: 0;
+
+}
+
+/*Here follows the class names that you will have in your html*/
+/*You may have more if you added styles in InDesign*/
+/*You need to add the style attributes between the curly brackets*/
+
+/* the following may not be used but it doesn't matter if they are listed here  */
+
+/* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
+
+.dramatis {
+      
+}
+
+.dramatishead {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 18px;
+  text-shadow: 5px 5px 5px rgb(125, 199, 225);
+
+  
+}
+
+.character_role {
+  font-style: italic;
+  margin-left: 16px;
+  font-size: 15px;
+  
+  
+}
+
+.charactername {
+  text-align: right;
+  margin-bottom: 1px
+
+     
+}
+
+
+
+.Basic-Table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  
+    
+}
+
+.play_location {
+  text-align: center;
+  font-style: italic;
+  font-size: 36px;
+  text-shadow: 5px 5px 5px rgb(125, 199, 225);
+  margin-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+.play {
+  font-weight: normal;
+
+}
+.sceneImage {
+  width: 65%;
+  max-width: 550px;
+  margin: 24px auto;
+
+}
+
+img {
+  width: 100%;
+  display: block;
+
+}
+.act {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: normal;
+  margin-bottom: 16px;
+
+}
+.character {
+  margin-bottom: 0px;
+   
+}
+
+
+.location {
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+
+}
+
+.firstscene {
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-bottom: 16px;
+
+}
+
+.scene {
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-bottom: 16px;
+
+}
+
+.song {
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+
+}
+.stagedirection {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 15px;
+  text-align: right;
+  margin-bottom: 6px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+
+}
+.verseline {
+  margin: 0 0 0.4em 6em;
+  margin-bottom: 7px;
+  
+}
+
+.prose {
+  margin: 0 0 0.4em 6em;
+  margin-bottom: 7px;
+}
+
+.Epilogue {
+  font-size: larger;
+}
+
+
+.stage_directions_inline {
+  font-style: italic;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+@media screen and (max-width: 480px){
+
+  main {
+    width: 95%;
+    min-width: 290px;
+                   
+  }
+
+  .verseline {
+    margin: 0 0 0.4em 2em;
+    
+    
+  }
+  
+  .prose {
+    margin: 0 0 0.4em 2em;
+    
+  }
+
+}
